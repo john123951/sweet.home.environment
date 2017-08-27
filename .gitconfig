@@ -1,0 +1,10 @@
+[user]
+	email = sweet123951@gmail.com
+	name = sweet
+[http]
+	#proxy = ssproxy:8080
+	#sslverify = false
+[https]
+	#proxy = ssproxy:8080
+[core]
+	quotepath = false
