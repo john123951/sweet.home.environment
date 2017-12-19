@@ -8,3 +8,4 @@
 	#proxy = ssproxy:8080
 [core]
 	quotepath = false
+	autocrlf = input
