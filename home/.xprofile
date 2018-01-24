@@ -7,5 +7,7 @@ export XMODIFIERS=@im=fcitx
 
 export VISUAL="vim"
 
+export ELECTRON_TRASH=trash-cli
+
 # alias
 alias pacman='pacman --color=auto'

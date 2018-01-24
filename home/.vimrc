@@ -10,7 +10,7 @@ set nocompatible
 set tabstop=4
 set expandtab
 " 退格键时一次删掉4个空格
-set softtabstop=4
+" set softtabstop=4
 "vim使用自动对起，也就是把当前行的对起格式应用到下一行；
 set autoindent
 " 开启新行时使用智能自动缩进
