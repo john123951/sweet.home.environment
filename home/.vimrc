@@ -32,3 +32,5 @@ set hlsearch
 set ignorecase smartcase
 " 搜索时，同步查找，当找要匹配的单词时，别忘记回车
 set incsearch
+
+:colorscheme desert
