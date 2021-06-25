@@ -99,3 +99,21 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 
 # alias
 alias pacman='pacman --color=auto'
+
+# function
+function proxy_off(){
+        unset http_proxy
+                unset https_proxy
+                echo -e "已关闭代理"
+}
+
+function proxy_on() {
+                proxyopen
+                export http_proxy="http://127.0.0.1:1087"
+                export https_proxy=$http_proxy
+                echo -e "已开启代理"
+}
+
+# jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
